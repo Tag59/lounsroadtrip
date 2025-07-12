@@ -46,10 +46,10 @@ export default function APropos() {
           viewport={{ once: true }}
         >
           <p className="mb-4 text-gray-700">
-            Louns est passionnée de moto depuis son plus jeune âge. Amoureuse des balades au grand air, elle sillonne les routes de la Côte d’Azur sous le soleil, toujours accompagnée de sa caméra pour immortaliser chaque instant.          </p>
+            Louns est passionnée de moto depuis son plus jeune âge. Amoureuse des balades au grand air, elle sillonne les routes de la Côte d&apos;Azur sous le soleil, toujours accompagnée de sa caméra pour immortaliser chaque instant.          </p>
           <ul className="space-y-2">
             <li>Moto : Yamaha MT-125</li>
-            <li>Région : Provence-Alpes-Côte d'Azur</li>
+            <li>Région : Provence-Alpes-Côte d&apos;Azur</li>
           </ul>
         </motion.div>
       </div>
@@ -68,10 +68,10 @@ export default function APropos() {
             <p className="text-gray-600"> Été 2023 – Obtention du permis A1</p>
           </li>
           <li>
-            <p className="text-gray-600">Été 2023 – Achat d'une Yamaha MT-125</p>
+            <p className="text-gray-600">Été 2023 – Achat d&apos;une Yamaha MT-125</p>
           </li>
           <li>
-            <p className="text-gray-600">Printemps 2025 – Achat d'une GoPro Hero 13 pour immortaliser ses balades</p>
+            <p className="text-gray-600">Printemps 2025 – Achat d&apos;une GoPro Hero 13 pour immortaliser ses balades</p>
           </li>
           <li>
             <p className="text-gray-600">Été 2025 – Ouverture du site dédié aux balades de Louns</p>

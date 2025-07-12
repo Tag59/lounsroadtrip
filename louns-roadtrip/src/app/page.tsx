@@ -45,7 +45,7 @@ export default function Home() {
       >
         <h2 className="text-3xl font-bold mb-4">Qui est Louns ?</h2>
         <p className="max-w-2xl mx-auto text-gray-600">
-          Louns est une passionnée de moto, traversant les routes de la Côte d’Azur et capturant la beauté de chaque paysage.
+          Louns est une passionnée de moto, traversant les routes de la Côte d&apos;Azur et capturant la beauté de chaque paysage.
         </p>
       </motion.section>
 
