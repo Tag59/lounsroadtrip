@@ -7,8 +7,11 @@ import AnimatedButton from "@/components/AnimatedButton";
 
 const images = [
   { src: "moto1.jpg", title: "moto1" },
-  { src: "moto2.jpg", title: "moto2" },
+  { src: "louns6.jpg", title: "louns6" },
   { src: "moto3.jpg", title: "moto3" },
+  { src: "louns4.jpg", title: "louns4" },
+  { src: "moto2.jpg", title: "moto2" },
+  { src: "louns5.jpg", title: "louns5" },
 ];
 
 export default function Galerie() {

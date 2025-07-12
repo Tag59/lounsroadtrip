@@ -9,19 +9,25 @@ const videos = [
     src: "/videos/Gisèle.mp4",
     poster: "/images/minia/gisele.png",
     title: "Balade au coucher de soleil",
-    desc: "Une fin de journée comme on les aime. Le soleil était rayonnant et se couchait, et les routes semblaient presque vides, comme si elles n'étaient qu'à moi. J'avais mis 'Gisèle' dans le casque, tout était calme, lent, beau. C'était une balade simple, mais tellement agréable.",
+    desc: "Une fin de journée comme on les aime. Le soleil se couchait doucement sur les routes désertes, avec 'Gisèle' dans le casque. Un moment suspendu, lent et doux, comme si la route m’appartenait.",
   },
   {
     src: "/videos/nightride.mp4",
     poster: "/images/minia/nightride.png",
     title: "Balade nocturne sur la côte",
-    desc: "Je suis partie faire une petite virée nocturne. Les lumières de la côte sont faibles, la mer noire est à mes côtés et le vent est plus frais. J’écoutais un son que j'aime, \"I like the way you kiss me\", c'était magique.",  
+    desc: "Une virée improvisée sous les étoiles. Les lumières de la côte clignotaient faiblement, la mer noire défilait à mes côtés. 'I like the way you kiss me' résonnait dans mon casque, rendant l’instant presque irréel.",
   },
   {
     src: "/videos/totallyspies.mp4",
     poster: "/images/minia/totallyspies.png",
     title: "Balade sous le soleil méditerranéen",
-    desc: "C’était l’une de ces journées parfaites, où le ciel est bleu, les routes sont sèches, le soleil brille aux éclats. Je suis partie dans les hauteurs, puis traçais ma route vers Fréjus. Je chantais dans mon casque Totally Spies de Houdi, et je me suis dit : 'C’est ça la liberté !'.",
+    desc: "Une journée parfaite. Ciel bleu, routes sèches, le soleil sur la visière teintée. J’ai démarré dans les hauteurs avant de redescendre vers Fréjus, Totally Spies dans les oreilles.",
+  },
+  {
+    src: "/videos/Roi.mp4",
+    poster: "/images/minia/roi.png",
+    title: "Balade sur la côte d'Azur",
+    desc: "Une longue balade, le ciel était bleu, les routes calmes, la mer resplendissante, 'censuré pour le moment' passait dans mon casque, et ce son était parfait pour l'occasion.",
   },
 ];
 
@@ -79,7 +85,7 @@ export default function VideosPage() {
 
       {/* Mini galerie */}
       <motion.div
-        className="max-w-4xl w-full flex justify-center gap-6"
+        className="max-w-4xl w-full flex flex-wrap justify-center gap-6"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
@@ -98,13 +104,10 @@ export default function VideosPage() {
             whileTap={{ scale: 0.95 }}
             layoutId={`video-thumb-${idx}`}
           >
-            <video
-              src={video.src}
-              poster={video.poster}
+            <img
+              src={video.poster}
+              alt={video.title}
               className="w-40 h-24 object-cover"
-              muted
-              preload="metadata"
-              playsInline
             />
           </motion.div>
         ))}

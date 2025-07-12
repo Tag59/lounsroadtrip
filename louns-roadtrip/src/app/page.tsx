@@ -26,7 +26,7 @@ export default function Home() {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-5xl font-bold uppercase">Louns Roadtrip</h1>
-          <p className="mt-4 text-xl text-gray-200">La route. La liberté. La passion moto.</p>
+          <p className="mt-4 text-xl text-gray-200">La liberté à travers la moto.</p>
           <div className="mt-6">
             <AnimatedButton href="/videos">
               Voir les vidéos
@@ -45,7 +45,7 @@ export default function Home() {
       >
         <h2 className="text-3xl font-bold mb-4">Qui est Louns ?</h2>
         <p className="max-w-2xl mx-auto text-gray-600">
-          Louns est une passionnée de moto, explorant les routes et capturant la beauté de chaque virage.
+          Louns est une passionnée de moto, traversant les routes de la Côte d’Azur et capturant la beauté de chaque paysage.
         </p>
       </motion.section>
 
